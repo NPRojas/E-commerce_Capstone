@@ -16,6 +16,10 @@ body {
     font-family: 'Source Serif 4', serif;
 }
 
+img[src="images/golden_snitch.png"] {
+    width: 6em;
+    height:3em;
+}
 h1 {
     font-family: 'Merienda';
     text-align: center;
@@ -55,7 +59,7 @@ p {
     line-height: 190%;
 }
 
-main {
+#homepage {
     color: var(--accent40);
     background-color: var(--primary80);
     width:fit-content;
