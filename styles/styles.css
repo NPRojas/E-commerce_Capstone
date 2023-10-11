@@ -7,7 +7,7 @@
     
     /* accent colors */
     --accent100:hsl(20, 56%, 97%);
-    --accent40:hsl(0, 59%, 31);
+    --accent40:hsl(0, 59%, 31%);
     --accent30:hsl(0, 59%, 21%);
     --accent10:hsl(20, 56%, 10%); 
 }
@@ -41,3 +41,20 @@ h1 {
     font-size: 16px;
     list-style-type: none;
 }
+
+main {
+    color: var(--accent40);
+}
+
+.breadcrumb-item.active {
+    color: var(--primary40); 
+}
+
+.breadcrumb-item {
+    color: var(--primary60); 
+}
+
+/* this is not working here */
+.navbar-nav .nav-item:hover {
+    color: red
+  }
