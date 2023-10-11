@@ -1,15 +1,37 @@
+:root {
+    /* primary colors */
+    --primary80: hsl(46, 77%, 80%); 
+    --primary60: hsl(45, 76%, 60%);
+    --primary40: hsl(43, 76%, 40%);  
+    --primary10: hsl(43, 72%, 19%);
+    
+    /* accent colors */
+    --accent100:hsl(20, 56%, 97%);
+    --accent40:hsl(0, 59%, 31);
+    --accent30:hsl(0, 59%, 21%);
+    --accent10:hsl(20, 56%, 10%); 
+}
+
 body {
     font-family: 'Merienda', cursive;
     font-family: 'Source Serif 4', serif;
 }
+
 h1 {
     font-family: 'Merienda';
     text-align: center;
     font-weight: bold;
+    color: var(--primary40);
 }
+
 .nav, .breadcrumb {
     justify-content: center;
 }
+
+.nav-link {
+    color: var(--primary60);
+}
+
 .card > img {
    height: 25em;
    width: 20em;
