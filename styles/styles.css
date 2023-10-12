@@ -29,6 +29,10 @@ h1 {
     color: var(--primary40);
 }
 
+h2 {
+    color: var(--accent40);
+}
+
 h2, h3 {
     font-family: 'Merienda';
 }
@@ -113,7 +117,7 @@ img[src="images/field.jpg"] {
 .login-form {
     background-color: var(--primary80);
     width: 396px;
-    height: 23em;
+    height: auto;
     border-radius: 20px;
 }
 
