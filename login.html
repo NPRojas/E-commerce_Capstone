@@ -63,15 +63,15 @@
 
     <main class="container">
         <!-- Login Form -->
-        <form>
+        <form class="d-block mx-auto p-3 m-1 login-form">
             <div class="mb-3">
                 <label for="username" class="form-label visually-hidden">Email address or Username</label>
-                <input type="username" class="form-control" id="username" name="username" aria-describedby="emailHelp" placeholder="Username or Email">
+                <input type="username" class="form-control login" id="username" name="username" aria-describedby="emailHelp" placeholder="Username or Email">
             </div>
 
             <div class="mb-3">
                 <label for="password" class="form-label visually-hidden">Password</label>
-                <input type="password" class="form-control" id="password" name="password" placeholder="Password">
+                <input type="password" class="form-control login" id="password" name="password" placeholder="Password">
             </div>
 
             <div class="mb-3 form-check">
@@ -80,10 +80,10 @@
                 
             </div>
 
-            <button type="submit" class="btn btn-primary">Log In</button>
+            <button type="submit" class="btn button-primary">Log In</button>
             <div id="forgot_password" class="form-text"><a href="">Forgot Password?</a></div>
-
-            <button type="button" class="btn btn-primary">Create A New Account</button>
+            <hr>
+            <button type="button" class="btn button-secondary d-block mx-auto">Create A New Account</button>
         </form>
     </main>
     
