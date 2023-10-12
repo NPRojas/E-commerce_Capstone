@@ -99,6 +99,16 @@ img[src="images/field.jpg"] {
     border-radius:20px;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
 
 /* this is not working here */
 .navbar-nav .nav-item:hover {
