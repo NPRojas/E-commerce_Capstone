@@ -23,7 +23,7 @@
         </div>
           <!-- Navigation -->
           <div class="row">
-            <ul class="nav nav-underline col-md-12">
+            <ul class="nav nav-underline col-md-12 m-3">
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                 </li>
@@ -54,27 +54,78 @@
         <div class="row">
           <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-              <li class="breadcrumb-item active" aria-current="page">Home</li>
+              <li class="breadcrumb-item">Brooms</li>
+              <li class="breadcrumb-item active" aria-current="page">Most Popular</li>
             </ol>
           </nav>
         </div>
         </div> 
     </header>
     </header>
-    <main>
-       <h2>Top Qudditch Brooms</h2>
+    <main class="d-block mx-auto container">
+       <h2 class="most_popular_heading mt-2 ms-4">Top Qudditch Brooms</h2>
         <!-- This is where the cards go. I want to use css grid to size them? Should I just use custom css? Get bootstrap grid practice some other, better 
         organized way. -->
-        <div class="card" style="width: 20em; ">
-            <img src="images/luminastride-enchanté.jpg" class="card-img-top" alt="brown broom with blue hairs">
-            <div class="card-body">
-              <ul class="card-text">
-                <li>Name</li>
-                <li>Material</li>
-                <li>Price</li>
-              </ul>
-            </div>
+
+        <div class="card-group p-3 ms-3 row">
+          <div class="card">
+            <img src="..." class="card-img-top" alt="...">
+            <ul class="card-text">
+              <li>Name</li>
+              <li>Material</li>
+              <li>Price</li>
+            </ul>
+          </div>
+          <div class="card ms-3">
+            <img src="..." class="card-img-top" alt="...">
+            <ul class="card-text">
+              <li>Name</li>
+              <li>Material</li>
+              <li>Price</li>
+            </ul>
+          </div>   
+          
+          <div class="card ms-3">
+            <img src="..." class="card-img-top" alt="...">
+            <ul class="card-text">
+              <li>Name</li>
+              <li>Material</li>
+              <li>Price</li>
+            </ul>
+          </div>   
+          
+          <div class="card ms-3">
+            <img src="..." class="card-img-top" alt="...">
+            <ul class="card-text">
+              <li>Name</li>
+              <li>Material</li>
+              <li>Price</li>
+            </ul>
+          </div>
         </div>
+
+        <div class="card-group p-3 ms-3 row">
+          <div class="card col-md-3">
+            <img src="..." class="card-img-top" alt="...">
+            <ul class="card-text">
+              <li>Name</li>
+              <li>Material</li>
+              <li>Price</li>
+            </ul>
+          </div>
+          <div class="card ms-3 col-md-3">
+            <img src="..." class="card-img-top" alt="...">
+            <ul class="card-text">
+              <li>Name</li>
+              <li>Material</li>
+              <li>Price</li>
+            </ul>
+          </div>
+           <!--Empty Div help with positioning of the cards  -->
+          <div class="col-md-6"></div>         
+        </div>
+        
+
     </main>
   </body>
 </html>

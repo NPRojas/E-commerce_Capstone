@@ -45,14 +45,21 @@ h2, h3 {
     font-size: 24px;
 }
 
-.card > img {
-   height: 25em;
-   width: 20em;
+.most_popular_heading {
+    color: var(--primary40);
 }
 
-.card > div > ul {
+.card > img {
+   height: 400px;
+   width: 263px;
+   border-radius: 10px;
+}
+
+.card > ul {
     font-size: 16px;
     list-style-type: none;
+    padding: 0%;
+    margin: 0px;
 }
 p {
     text-indent: 20px;
@@ -85,6 +92,7 @@ img[src="images/field.jpg"] {
     height:20em;
     border-radius:20px;
 }
+
 
 /* this is not working here */
 .navbar-nav .nav-item:hover {
