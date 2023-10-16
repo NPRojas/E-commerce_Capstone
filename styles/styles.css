@@ -37,9 +37,9 @@ h2, h3 {
     font-family: 'Merienda';
 }
 
-.nav, .breadcrumb {
+/*.breadcrumb {
     justify-content: center;
-}
+} */
 
 .nav {
     justify-content: space-around;
@@ -148,3 +148,29 @@ img[src="images/field.jpg"] {
 .navbar-nav .nav-item:hover {
     color: red
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

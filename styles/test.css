@@ -1,0 +1,39 @@
+li:hover a {
+    border-radius: 5px;
+    color: red;
+    font-weight: bold;
+    }
+
+  
+.navbar{
+    padding:0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+#home:hover {
+    color: red;
+
+    
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    background-color: aquamarine;
+    border: none;
+    border-radius: 0;
+    border: 1px solid;
+    /* this changes the font color */
+    color:white;
+    /* this changes makes the font thicker or thinner */
+    font-weight: bold;
+    margin:0;
+}
+
+span {
+    font-size: 20px;
+    position:relative;
+    color: blanchedalmond;
+    padding: 0;
+} 
