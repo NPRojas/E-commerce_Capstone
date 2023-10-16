@@ -53,43 +53,43 @@
         </div> 
     </header>
 
-    <main class="container">
+    <main class="container mt-5">
       <div class="row">
         <div class="col-md-4 order-md-2 mb-4">
           <!-- making a tag a flexbox container -->
-          <h2 class="d-flex justify-content-between align-items-center mb-3">Your Cart</h2>
+          <h2 class="d-flex justify-content-between align-items-center my-3">Your Cart</h2>
           <ul class="list-group mb-3">
             <!-- a li tag can have more than one item! useful if you want to use flexbox to sort items -->
             <li class="list-group-item d-flex justify-content-between">
               <div>
-                <h6>Product name</h6>
-                <small>Brief description</small>
+                <h6>Phoenix Stride</h6>
+                <small>Dragon Heartstring</small>
               </div>
-              <span>$12</span>
+              <span>$327</span>
             </li>
             <li class="list-group-item d-flex justify-content-between">
               <div>
-                <h6>Product name</h6>
-                <small>Brief description</small>
+                <h6>Midnight Celeste</h6>
+                <small>Moonstone</small>
               </div>
-              <span>$12</span>
+              <span>$254</span>
             </li>
             <li class="list-group-item d-flex justify-content-between">
               <div>
-                <h6>Product name</h6>
-                <small>Brief description</small>
+                <h6>Thunderstrike Bolt</h6>
+                <small>Ironwood</small>
               </div>
-              <span>$12</span>
+              <span>$206</span>
             </li>
             <li class="list-group-item d-flex justify-content-between">
               <span>Total (USD)</span>
-              <strong>$20</strong>
+              <strong>$787</strong>
             </li>
           </ul>
         </div>
 
-        <div class="col-md-8 order-md-1">
-          <h2>Billing Address</h2>
+        <div class="col-md-8 order-md-1 custom-background">
+          <h2 class="mt-3">Billing Address</h2>
           <form>
             <div class="row">
               <div class="col-md-6 mb-3">
@@ -139,9 +139,10 @@
                 <input type="text" class="form-control" id="zip">
               </div>
             </div>
+
             <hr class="mb-4">
 
-            <h3>Payment</h3>
+            <h4 class="payment-heading">Payment</h4>
             <div class="d-block my-3">
               <div>
                 <input type="radio" name="payment-method" id="credit">
@@ -183,9 +184,9 @@
             </div>
             
             <hr class="mb-4">
-            <button class="btn btn-primary btn-lg btn-block" type="submit">Continue to checkout</button>
+            <button class="btn button-primary btn-lg btn-block mb-3" type="submit">Continue to checkout</button>
           </form>
-          
+
         </div>
       </div>
     </main>
